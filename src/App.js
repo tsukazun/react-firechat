@@ -10,12 +10,14 @@ import Channel from './components/Channel';
 import Loader from './components/Loader';
 
 firebase.initializeApp({
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_AUTH_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+  apiKey: "AIzaSyA5e5JndB0KFrd6lUbeGw9J61s8OESigjw",
+  authDomain: "faamillychatting.firebaseapp.com",
+  databaseURL: "https://faamillychatting-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "faamillychatting",
+  storageBucket: "faamillychatting.appspot.com",
+  messagingSenderId: "581758954195",
+  appId: "1:581758954195:web:04bdd17161fc236c5e8226",
+  measurementId: "G-PMG110EJKW"
 });
 
 const MoonIcon = props => (
