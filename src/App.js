@@ -104,10 +104,10 @@ function App() {
                 clipRule="evenodd"
               />
             </svg>
-            React FireChat
+            Chatting
           </h2>
           <p className="mb-8 text-lg text-center">
-            The easiest way to chat with people all around the world.
+            Le moyen le plus simple pour discuter avec tes amis.
           </p>
           <button
             onClick={signInWithGoogle}
@@ -139,7 +139,7 @@ function App() {
                 d="M6.6 16.7c1.7-1.3 3.3-2.5 5-3.8.6 1.8 1.9 3.5 3.5 4.6 1 .7 2.2 1.2 3.4 1.4 1.2.2 2.4.2 3.7 0 1.2-.2 2.4-.6 3.4-1.3 1.6 1.2 3.2 2.5 4.9 3.7-1.8 1.6-3.9 2.7-6.3 3.2-2.6.6-5.3.6-7.8-.1-2-.5-3.9-1.5-5.6-2.7-1.7-1.3-3.2-3-4.2-5z"
               ></path>
             </svg>
-            Sign in with Google
+            Connection avec Google
           </button>
         </div>
       </div>
@@ -152,7 +152,7 @@ function App() {
         className="flex-shrink-0 flex items-center justify-between px-4 sm:px-8 shadow-md"
         style={{ height: 'var(--topbar-height)' }}
       >
-        <a href="https://alterclass.io/courses/react">
+        <a href="">
           <img src={brandLogo} alt="AlterClass" width={150} />
         </a>
         <div className="flex items-center">
